@@ -1,0 +1,146 @@
+body{
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+  }
+    .header{
+      background-color: rgba(78, 93, 179, 0.973);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 50px;
+    }
+
+    .header-link a {
+       color: white; 
+       padding: 0px 15px;
+     text-decoration: none;
+     border-radius: 50px;
+    }
+    .header-link a:hover{
+      background-color: rgb(105, 105, 172);
+    }
+    .btn{
+      background-color: brown;
+    color: white;
+    border: 0px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    }
+  .btn:hover{
+    background-color: rgb(180, 87, 87);
+  }
+  .j1{
+    background-color: rgba(78, 93, 179, 0.973);
+    color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+  align-items: center;
+  border-radius: 0 0 50px 50px;
+  }
+  .h2{
+    padding: 20px 0px;
+    margin: 0px;
+  }
+  .descriptaion{
+    width: 400px;
+  }
+  .SERCHE input{
+ border-radius: 50px;
+ border: none;
+ outline: none;
+ height:30px;
+ padding: 0px 10px;
+  }
+  .SERCHE button{
+    left: 200px;
+    position:absolute;
+    height: 30px;
+  }
+  .SERCHE button:hover{
+    background-color: rgb(180, 87, 87);
+  }
+  .image img{
+    border-radius: 4%;
+    width: 250px;
+  }
+  .Trending button{
+    background-color: brown;
+    color: white;
+    border: 0px;
+    padding: 5px 15px;
+    border-radius: 15px;
+  }
+  .Trending button:hover{
+    background-color: rgb(180, 87, 87);
+  }
+  .Trending-Header{
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+}
+.Trending-container{
+  padding: 25px 50px;
+}
+
+.games-info{
+  display: flex;
+  justify-content:space-between;
+  padding: 10px 10px;
+  align-items: center;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  padding-right: 2px;
+}
+.top-games{
+  width: 235px;
+  background-color: rgb(236, 228, 228);
+  border-radius: 20px
+
+}
+.games-info  img{
+  width: 50px;
+}
+.top-games img{
+  border-radius: 20px 20px 0px 0px;
+}
+.games{
+  display: flex;
+  gap: 12px;
+  transform: translate(50px);
+}
+.Top-game {
+  padding: 25px 50px;
+
+}
+.TG-Header {
+  display: flex;
+    justify-content: space-between;
+align-items: center;
+}
+.Top-game{
+  border-radius: 20px;
+  
+}
+.game-info{
+  display: flex;
+  justify-content:space-between;
+  padding: 10px 10px;
+  align-items: center;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  padding-right: 2px;
+}
+.game-name{
+  transform: translate(70px);
+}
+.game{
+  display: flex;
+  gap: 12px;
+  transform: translate(50px);
+}
+.P {
+margin-bottom: 0px;
+background-color: brown;
+border-radius: 20px;
+}
